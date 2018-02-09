@@ -2,7 +2,10 @@
 
 Here the goal of this project is to predict the path of the car in the simulator provided. This simulator provides us with the steering wheel and acceleration values while the MPC controller predicts the track waypoints using this data. The model used for this is described below.
 ### Model 
-The kinematic model includes the vehicle's x and y coordinates, orientation angle, velocity, cross-track error and orientation angle psi error denoted as epsi. Acceleration and steering angle are produced as the outputs of the Actuator. The model combines the state and actuations from the previous timestep (limited by N) to calculate the state for the current timestep based on the equations below:
+The kinematic model includes the vehicle's x and y coordinates, orientation angle, velocity, cross-track error and orientation angle psi error denoted as epsi. Acceleration and steering angle are produced as the outputs of the Actuator. The model combines the state and actuations from the previous timestep (limited by N) to calculate the state for the current timestep.
+
+The equations for 
+
 
 
 
